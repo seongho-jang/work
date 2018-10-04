@@ -34,4 +34,7 @@
   - 영화제 보러가기..
   - 마룬5 콘서트 가보기..
 
- ![KakaoTalk20181005_005641990.jpg](./Kakaotalk_20181005_005641990.jpg)
+ ![KakaoTalk20181005_005641990.jpg](https://imgur.com/GwmLQzy)
+
+
+
