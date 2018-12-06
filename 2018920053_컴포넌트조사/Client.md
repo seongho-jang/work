@@ -1,0 +1,57 @@
+# Client
+
+- Android(86%)
+  - Andy Rubin이 설립한 Andriod사에서 개발
+  - Linux Kernel 사용
+    - Kernel
+      - 프로세스 제어, 메모리 제어, 프로그램이 요구하는 콜 등을 수행하는 OS에서 가장 중요한 부분
+      - 단일형(monolithic kernel), 마이크로(micro kernel), 혼합형(hybrid kernel)으로 분류됨
+      - 단일형커널(monolithic kernel)
+        - 운영체제의 모든일을 한개의 커널이 담당
+        - Linux, UNIX계통, MS-DOS, macOS 8.6이하버전이 사용
+      - 마이크로커널(micro kernel)
+        - 시스템 콜과 같은 서비스, 디바이스 관리를 제외하여 안정성을 높이고 커널 크기도 줄인 방식
+        - 안정성과 보안에서는 이득을 얻지만, 전반적인 퍼포먼스는 저하됨
+        - 심비안, Mach등이 사용함
+      - 혼합형 커널(hybrid kernel)
+        - 단일형커널에 마이크로커널 디자인을 넣ㅇ허 만든 방식
+        - NT커널(Windows NT, XP, Vista, 7, 8, 8.1, 10, Windows Server)
+        - XNU
+  - ARM Processor 기반
+  - Android Studio (안드로이드 공식 통합 개발 환경)
+    - Android Studio 공식언어
+      - Kotlin
+        - IntelliJ IDEA를 개발한 JetBrains사에서 개발
+        - Java에 비하면 간결한 문법 사용
+        - Java와 상호 호환 또한 100%지원
+        - JVM(Java Virtual Machine)기반
+          - Java Compiler를 통해 변환된 Javabytecode를 OS가 이해 할 수 있도록 해석해준다.
+          - 아마 Kotlin를 컴파일러를 통해 번역하면 Javabytecode가 나오는 듯..
+          - 다른 언어도 컴파일 후 결과값이 Javabytecode값이면 JVM기반 실행이 가능함(Python, Ruby, etc)
+      - Java
+        - 썬마이크로 시스탬즈에서 95년 개발(제임스 고슬링)
+        - 현제 Java의 저작권자는 Oracle
+        - 위에서 언급된 JVM기반의 언어
+        - 많은 개발자층 보유
+        - Java SE(표준 에디션), Jakarta EE(서버), Java ME(임베디드), Java FX(데스크탑 GUI특화)
+- iOS(14%)
+  - Darwin OS 베이스
+    - Apple사의 모든 운영체제(iOS, macOS, watchOS, etc)는 Darwin을 기반으로 한다.
+    - XNU커널 사용
+      - XNU커널은 위에서 언급한 것과 같이 혼합형커널(hybrid kernel)에 해당된다.
+  - ARM Processor
+    - 1985년 영국 Acorn COmputers에 의해서 탄생
+    - 저전력 프로세서
+    - Cortex-A : 다양한 플렛폼에서 지원 목적이며, 스마트폰에 사용됨
+    - Cortex-R : R은 Real time을 의미하며, 3G/LTE모뎀에 주로 이용
+    - Cortex-M :  Micro Controller Unit전용
+  - Xcode(애플 공식 통합개발환경)
+    - Objective-C
+      - 83년 브래드 쿡스 & 톰러브 개발
+      - ANSI C에 객체지향을 얹은 것이라 생각하면 편하다.
+      - 안드로이드와 같이 JVM에서 Javabytecode를 통해 실행하는 방식은 아님
+      - 거의 모든 애플 제품과 관련되 있음
+    - Swift
+      - Apple WWDC 2014에서 발표
+      - Swift를 이용한 프로젝트에서도 Objective-C를 사용이 가능하다.
+      - Objective-C에 없던 네임스페이스와 같은 기능이 다수 추가됨
